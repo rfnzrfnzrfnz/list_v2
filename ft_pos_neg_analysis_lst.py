@@ -34,12 +34,12 @@ def ft_pos_neg_analysis_lst(lst):
             summaotr = summaotr + i
         else:
             nol += 1
-    print('Положительные:', "\t\tОтрицательные:")
-    print('Количество чисел: ', kolpol, ',\t\tКоличество чисел: ', kolotr, ',', sep='')
-    print('Максимальная цифра: ', maxpol, ',\t\tМаксимальная цифра: ', maxotr, ',', sep='')
-    print('Минимальная цифра: ', minpol, ',\t\tМинимальная цифра: ', minotr, ',', sep='')
-    print('Сумма чисел:', summapol, ',\t\tСумма чисел: ', summaotr, ',', sep='')
-    print('Среднее значение: ', summapol / kolpol, '\t\tСреднее значение:', summaotr / kolotr, sep='')
+    print('Положительные:', "\tОтрицательные:")
+    print('Количество чисел: ', kolpol, ',\tКоличество чисел: ', kolotr, ',', sep='')
+    print('Максимальная цифра: ', maxpol, ',\tМаксимальная цифра: ', maxotr, ',', sep='')
+    print('Минимальная цифра: ', minpol, ',\tМинимальная цифра: ', minotr, ',', sep='')
+    print('Сумма чисел:', summapol, ',\tСумма чисел: ', summaotr, ',', sep='')
+    print('Среднее значение: ', summapol / kolpol, '\tСреднее значение:', summaotr / kolotr, sep='')
     print()
     print('Количество нулей:', nol, sep='')
     return kolpol, kolotr, maxpol, maxotr, minpol, minotr, nol, summapol, summaotr
