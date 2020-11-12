@@ -13,3 +13,4 @@ def ft_join(lst, se=" "):
         else:
             s += lst[i] + se
     return s
+
