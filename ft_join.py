@@ -1,15 +1,6 @@
-def ft_len(str):
-    l = 0
-    for i in str:
-        l += 1
-    return (l)
-
-
-def ft_join(lst, sep=' '):
-    c = ''
-    for i in range(ft_len(lst)):
-        if i == ft_len(lst) - 1:
-            c += lst[i]
-        else:
-            c += lst[i] + sep
-    return c
+def ft_join(lst, sep=" "):
+    res_str = ''
+    for item in lst[:-1]:
+        res_str += f"{item}" + sep
+    res_str += f"{lst[-1]}"
+    return res_str
