@@ -43,4 +43,3 @@ def ft_pos_neg_analysis_lst(lst):
     print()
     print('Количество нулей:', nol, sep='')
     return kolpol, kolotr, maxpol, maxotr, minpol, minotr, nol, summapol, summaotr
-ft_pos_neg_analysis_lst([-1,-2,-3,-4,0,0,1,2,3,4,5,6])
